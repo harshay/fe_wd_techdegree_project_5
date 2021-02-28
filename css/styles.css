@@ -1,16 +1,27 @@
-#searchbox {
-
-    width: 200px; 
-    margin: auto; 
-
-}
 
 #search { 
 
-    width: 1000px; 
-    margin-top: 50px; 
-    margin:auto; 
+    display: flex; 
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
 
-} 
+}
+
+#searchbox {
+
+    width: 300px; 
+
+}
+
+#maingrid { 
 
 
+    max-width: 750px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-column-gap: 20px; 
+    grid-row-gap: 20px; 
+
+}; 
