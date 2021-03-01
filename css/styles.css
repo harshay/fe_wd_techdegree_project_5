@@ -4,7 +4,7 @@ img {
 
 }
 
-#search { 
+#searchx { 
 
     display: flex; 
     justify-content: center;
@@ -13,7 +13,7 @@ img {
 
 }
 
-#searchbox {
+#search {
 
     width: 300px; 
 
